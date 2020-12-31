@@ -58,11 +58,11 @@
     <form method="post" action="/task/edit/<?=$data['task']['id']?>" id="add_task_form">
         <div class="form-group">
             <label for="exampleInputEmail1">Ваше имя</label>
-            <span class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">Name</span>
+            <span class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><?=$data['task']['user_name']?></span>
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Ваш email</label>
-            <span class="form-control" id="exampleInputPassword1" > Email </span>
+            <span class="form-control" id="exampleInputPassword1" > <?=$data['task']['email']?> </span>
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Введите текст</label>
