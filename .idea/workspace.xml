@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a0070c-15c6-4ce8-9fba-f935e93e31a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_task_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_task_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit_task_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit_task_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tasks_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tasks_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/TaskController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tasks_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="77" column="96" selection-start-line="77" selection-start-column="96" selection-end-line="77" selection-end-column="96" />
+            <state relative-caret-position="470">
+              <caret line="83" column="51" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="51" />
               <folding>
                 <element signature="e#3352#3359#1#HTML" expanded="true" />
                 <element signature="e#3957#3964#1#HTML" expanded="true" />
@@ -83,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            <state relative-caret-position="540">
+              <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -140,12 +136,12 @@
         <option value="$PROJECT_DIR$/system/Bootstrap.php" />
         <option value="$PROJECT_DIR$/controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/models/Task.php" />
-        <option value="$PROJECT_DIR$/controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/templates/edit_task_template.php" />
         <option value="$PROJECT_DIR$/templates/login_template.php" />
         <option value="$PROJECT_DIR$/templates/add_task_template.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/tasks_template.php" />
+        <option value="$PROJECT_DIR$/controllers/TaskController.php" />
       </list>
     </option>
   </component>
@@ -234,12 +230,12 @@
       <updated>1609346291426</updated>
       <workItem from="1609346292864" duration="2907000" />
       <workItem from="1609397913914" duration="6450000" />
-      <workItem from="1609414724667" duration="30523000" />
+      <workItem from="1609414724667" duration="30820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39880000" />
+    <option name="totallyTimeSpent" value="40177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
@@ -330,13 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/TaskController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/login_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -367,12 +356,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tasks_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="77" column="96" selection-start-line="77" selection-start-column="96" selection-end-line="77" selection-end-column="96" />
+        <state relative-caret-position="470">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="51" />
           <folding>
             <element signature="e#3352#3359#1#HTML" expanded="true" />
             <element signature="e#3957#3964#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
         </state>
       </provider>
     </entry>

@@ -55,7 +55,7 @@ class TaskController{
           $errors[] = 'Текст задачи не должен быть пустым!';
       }
 
-      if (count($_POST) > 0 && count($errors) == 0){
+      if (count($_POST) > 0 && count($errors) == 0 && isset($_SESSION['admin'])){
           $text = addslashes($_POST['text']);
           $task->updateTask($taskId, $text, $status);
 
