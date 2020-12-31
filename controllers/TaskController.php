@@ -56,7 +56,7 @@ class TaskController{
       }
 
       if (count($_POST) > 0 && count($errors) == 0){
-          $text = $_POST['text'];
+          $text = addslashes($_POST['text']);
           $task->updateTask($taskId, $text, $status);
 
           $messages[] = 'Задача сохранена';
@@ -116,13 +116,5 @@ class TaskController{
 
       $view->render('add_task_template', $data);
   }
-
-//  public function delete(){
-//
-//  }
-//
-//  public function render(){
-//
-//  }
 
 }
