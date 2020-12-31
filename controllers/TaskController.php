@@ -40,7 +40,7 @@ class TaskController{
 
       $taskItem = $task->getTask($taskId);
 
-      if(!$taskId || !$taskItem){
+      if(!$taskId || !$taskItem || !isset($_SESSION['admin'])){
           header('Location: /');
       }
 
