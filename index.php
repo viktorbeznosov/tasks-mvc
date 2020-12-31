@@ -3,6 +3,7 @@
 
 <?php
 
+echo '<title>Tasks</title>';
 echo '<link rel="stylesheet" href="./assets/css/font-awesome.css">';
 echo '<link rel="stylesheet" href="./assets/css/style.css">';
 

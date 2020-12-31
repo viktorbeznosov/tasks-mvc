@@ -78,7 +78,7 @@
             <label class="form-check-label" for="exampleCheck1">Выполнено</label>
         </div>
         <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Сохранить</button>
     </form>
 </div>
 

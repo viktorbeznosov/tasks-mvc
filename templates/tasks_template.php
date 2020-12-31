@@ -75,7 +75,7 @@
                     <span class="badge badge-pill badge-success">Выполнено</span>
                 <?php endif;?>
                 <?php if ($item['edited'] == 1):?>
-                    <span class="badge badge-pill badge-warning">отредактировано</span>
+                    <span class="badge badge-pill badge-warning">Отредактировано администратором</span>
                 <?php endif;?>
                 <h3><?=$item['email']?></h3>
                 <p>
