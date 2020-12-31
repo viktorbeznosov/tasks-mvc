@@ -1,0 +1,10 @@
+Options -Indexes
+Redirect /controllers /index.php
+Redirect /views /index.php
+Redirect /models /index.php
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^\/assets/styles/(.*).css
+RewriteRule ^(.*)$ index.php?path=$1 [L,QSA]
