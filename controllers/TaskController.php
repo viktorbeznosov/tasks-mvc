@@ -60,7 +60,7 @@ class TaskController{
       }
 
       if (count($_POST) > 0 && count($errors) == 0 && isset($_SESSION['admin'])){
-          $text = addslashes($_POST['text']);
+          $text = htmlspecialchars(addslashes($_POST['text']));
           $task->updateTask($taskId, $text, $status);
 
           $messages[] = 'Задача сохранена';
@@ -104,9 +104,9 @@ class TaskController{
       }
 
       if (count($_POST) > 0 && count($errors) == 0){
-          $user_name = addslashes($_POST['user_name']);
-          $email = addslashes($_POST['email']);
-          $text = addslashes($_POST['text']);
+          $user_name = htmlspecialchars(addslashes($_POST['user_name']));
+          $email = htmlspecialchars(addslashes($_POST['email']));
+          $text = htmlspecialchars(addslashes($_POST['text']));
 
           $taskId = $task->addTask($user_name, $email, $text);
 
