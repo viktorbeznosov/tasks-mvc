@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4a0070c-15c6-4ce8-9fba-f935e93e31a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit_task_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit_task_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/TaskController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tasks_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
+            <state relative-caret-position="845">
               <caret line="83" column="51" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="51" />
             </state>
           </provider>
@@ -78,16 +76,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/edit_task_template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="635">
@@ -137,10 +135,10 @@
         <option value="$PROJECT_DIR$/templates/login_template.php" />
         <option value="$PROJECT_DIR$/templates/add_task_template.php" />
         <option value="$PROJECT_DIR$/templates/tasks_template.php" />
-        <option value="$PROJECT_DIR$/controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/edit_task_template.php" />
+        <option value="$PROJECT_DIR$/controllers/TaskController.php" />
       </list>
     </option>
   </component>
@@ -229,12 +227,12 @@
       <workItem from="1609581402051" duration="1721000" />
       <workItem from="1609676080013" duration="599000" />
       <workItem from="1609678968733" duration="599000" />
-      <workItem from="1609746254474" duration="3373000" />
+      <workItem from="1609746254474" duration="4802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48140000" />
+    <option name="totallyTimeSpent" value="49569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
@@ -288,13 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tasks_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="51" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/DataBase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -330,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/TasksView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -351,17 +335,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/TaskController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/edit_task_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/TasksView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tasks_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
         </state>
       </provider>
     </entry>

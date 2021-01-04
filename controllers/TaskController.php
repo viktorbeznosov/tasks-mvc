@@ -10,9 +10,9 @@ class TaskController{
       $view = new TasksView();
       $task = new Task();
 
-      $sort_name_link = (($sort != 'user_name' && $order =='') || ($sort == 'user_name' && $order == 'desc')) ? $task->getSortLink($page, 'user_name', 'asc') : $task->getSortLink($page, 'user_name', 'desc');
-      $sort_email_link = (($sort != 'email' && $order =='') || ($sort == 'email' && $order == 'desc')) ? $task->getSortLink($page, 'email', 'asc') : $task->getSortLink($page, 'email', 'desc');
-      $sort_status_link = (($sort != 'status' && $order =='') || ($sort == 'status' && $order == 'desc')) ? $task->getSortLink($page, 'status', 'asc') : $task->getSortLink($page, 'status', 'desc');
+      $sort_name_link = (($sort != 'user_name' && ($order =='' || ($order =='desc'))) || ($sort == 'user_name' && $order == 'desc')) ? $task->getSortLink($page, 'user_name', 'asc') : $task->getSortLink($page, 'user_name', 'desc');
+      $sort_email_link = (($sort != 'email' && $order =='' || ($order =='desc')) || ($sort == 'email' && $order == 'desc')) ? $task->getSortLink($page, 'email', 'asc') : $task->getSortLink($page, 'email', 'desc');
+      $sort_status_link = (($sort != 'status' && $order =='' || ($order =='desc')) || ($sort == 'status' && $order == 'desc')) ? $task->getSortLink($page, 'status', 'asc') : $task->getSortLink($page, 'status', 'desc');
 
       $data = array(
           'tasks' => $task->getAll($page,$sort,$order),
