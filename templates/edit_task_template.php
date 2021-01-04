@@ -57,15 +57,33 @@
 
     <form method="post" action="/task/edit/<?=$data['task']['id']?>" id="add_task_form">
         <div class="form-group">
-            <label for="exampleInputEmail1">Ваше имя</label>
+            <label for="exampleInputEmail1">
+                <?php if(!isset($_SESSION['admin'])): ?>
+                    Ваше имя
+                <?php else: ?>
+                    Имя пользователя
+                <?php endif; ?>
+            </label>
             <span class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><?=$data['task']['user_name']?></span>
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Ваш email</label>
+            <label for="exampleInputPassword1">
+                <?php if(!isset($_SESSION['admin'])): ?>
+                    Ваш email
+                <?php else: ?>
+                    Email пользователя
+                <?php endif; ?>
+            </label>
             <span class="form-control" id="exampleInputPassword1" > <?=$data['task']['email']?> </span>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Введите текст</label>
+            <label for="exampleFormControlTextarea1">
+                <?php if(!isset($_SESSION['admin'])): ?>
+                    Введите текст
+                <?php else: ?>
+                    Текст
+                <?php endif; ?>
+            </label>
             <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"><?=$data['task']['text']?></textarea>
         </div>
         <br>

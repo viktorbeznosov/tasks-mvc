@@ -42,6 +42,6 @@ class LoginController
 
         print_r($_SESSION);
 
-        header('Location: /');
+        header('Location: /login');
     }
 }
