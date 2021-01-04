@@ -30,6 +30,10 @@ class TaskController{
   }
 
   public function edit(){
+      if(!isset($_SESSION['admin'])){
+          header('Location: /login');
+      }
+
       $taskId = (isset(func_get_args()[0][0])) ? func_get_args()[0][0] : false;
 
       $view = new TasksView();
@@ -40,7 +44,7 @@ class TaskController{
 
       $taskItem = $task->getTask($taskId);
 
-      if(!$taskId || !$taskItem || !isset($_SESSION['admin'])){
+      if(!$taskId || !$taskItem){
           header('Location: /');
       }
 
